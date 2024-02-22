@@ -50,6 +50,7 @@ const login = () =>{
       <div className="registration">
         <h1>Registration</h1>
         <label>Username</label>
+        
           <input 
           type="text"
            onChange={(e) => {
@@ -59,7 +60,7 @@ const login = () =>{
 
         <label>Password</label>
           <input 
-          type="text"
+          type="password"
            onChange={(e) => {
             setPasswordReg(e.target.value);
            }}
@@ -68,16 +69,19 @@ const login = () =>{
       </div>
 
       <div className="login">
+      
         <h1>Login</h1>
+        <label>Username</label>
         <input
         type="text"
-        placeholder="Username..."
+        
         onChange={(e) => {
           setUsername(e.target.value);
          }}
         /><br></br>
+        <label>Password</label>
         <input
-        type="password" placeholder="Password..."
+        type="password"
         onChange={(e) => {
           setPassword(e.target.value);
          }}
