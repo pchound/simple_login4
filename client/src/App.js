@@ -54,7 +54,7 @@ const login = () =>{
             setPasswordReg(e.target.value);
            }}
            /><br></br>
-        <button onClick={register}>Login</button>
+        <button onClick={register}>Register</button>
       </div>
 
       <div className="login">
